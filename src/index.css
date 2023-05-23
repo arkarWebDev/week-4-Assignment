@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.nav h2 {
+  text-transform: uppercase;
+  color: orange;
+}
+
+.nav button {
+  padding: 10px 20px;
+  border: 1px solid orange;
+  background-color: orange;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.summary {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.summary p {
+  color: dimgrey;
+  font-size: 17px;
+}
+
+.body {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.card {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid orange;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-price {
+  font-weight: 700;
+}
+
+.card-button {
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 8px;
+  padding: 8px 8px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.card-input {
+  display: block;
+  width: 50px;
+  margin: 30px 0 10px 0;
+  border: 1px solid orange;
+  padding: 4px 2px;
+  font-size: 16px;
+}
+
+.card-input:focus {
+  border: 1px solid orange;
+  outline: none;
+}
+
+.backdrop {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-box {
+  background-color: #fff;
+  padding: 20px 80px;
+  width: 80%;
+  position: fixed;
+  z-index: 30;
+  border-radius: 8px;
+}
+
+.cart {
+  padding: 20px 20px;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.total p {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.order-btn {
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: 1px solid orange;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: orange;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.card-quantity {
+  padding: 4px 6px;
+  background-color: orange;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.quantity-btn {
+  border: 1px solid orange;
+  background-color: transparent;
+  color: orange;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.m-ctr {
+  margin-right: 8px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.no-item {
+  text-align: center;
+}
