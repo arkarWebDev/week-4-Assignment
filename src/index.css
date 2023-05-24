@@ -102,6 +102,14 @@
   position: fixed;
   z-index: 30;
   border-radius: 8px;
+  top: 40vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overflow-ctr {
+  height: 400px;
+  overflow-y: scroll;
 }
 
 .cart {
